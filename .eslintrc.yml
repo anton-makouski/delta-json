@@ -1,0 +1,9 @@
+extends:
+  - airbnb-base
+  - plugin:prettier/recommended
+
+rules:
+  linebreak-style: 0
+  no-param-reassign: ["error", { "props": true }]
+  no-new-object: 0
+  no-console: 0

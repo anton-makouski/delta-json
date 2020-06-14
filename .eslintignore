@@ -1,0 +1,4 @@
+src/js/vendors
+src/abuilder/js/vendor
+src/cnlbuilder/js/vendor
+**/templates.js

@@ -1,0 +1,10 @@
+node_modules
+nbproject
+
+env/*
+!env/*.example
+/.idea/
+/*.iml
+.env
+init.json
+newrelic_agent.log

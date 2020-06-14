@@ -1,0 +1,38 @@
+{
+  "name": "diff-delta-json",
+  "version": "0.0.1",
+  "description": "Create delta (diff) json. History of json changes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiksot/delta-json.git"
+  },
+  "keywords": [
+    "diff json",
+    "json changes",
+    "delta json",
+    "history",
+    "diff",
+    "json",
+    "changes",
+    "delta"
+  ],
+  "author": "Anton Makouski",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.11.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.10.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "jest": "^21.2.0",
+    "prettier": "1.14.2"
+  },
+  "bugs": {
+    "url": "https://github.com/kiksot/delta-json/issues"
+  },
+  "homepage": "https://github.com/kiksot/delta-json#readme"
+}
