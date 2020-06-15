@@ -14,14 +14,14 @@ let delta = new Delta();
 let changes = delta.getChanges (obj1, obj2)
 ``` 
 
-+ get delta json (can be used in partial update)
++ get delta json 
 ```$xslt
-let changes = delta.getChanges (obj1, obj2)
+let changes = delta.getDelta (obj1, obj2)
 ``` 
 
 + get history changes
 ```$xslt
-let changes = delta.getChanges (obj1, obj2, userName) 
+let changes = delta.createHistory (obj1, obj2, userName) 
 ```
 
 #Options
