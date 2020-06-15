@@ -24,11 +24,11 @@ let changes = delta.getDelta (obj1, obj2)
 let changes = delta.createHistory (obj1, obj2, userName) 
 ```
 
-#Options
+# Options
 
 Labels and ignore keys can be implemented by Option, default:
 ```$xslt
-{
+let options = {
   labels:{
     beforeLabel: 'before',
     afterLabel: 'after',
@@ -38,9 +38,11 @@ Labels and ignore keys can be implemented by Option, default:
   },
   ignore:[] // list of keys to ignore  
 } 
+
+const delta = new Delta(options);
 ```
 
-#Examples
+# Examples
 
 ```
 const Delta = require('./delta');
