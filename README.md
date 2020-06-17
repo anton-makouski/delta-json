@@ -45,7 +45,7 @@ const delta = new Delta(options);
 # Examples
 
 ```
-const Delta = require('./delta');
+const Delta = require('diff-delta-json');
 const util = require('util');
 
 const obj1 = {
